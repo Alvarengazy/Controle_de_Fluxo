@@ -1,4 +1,4 @@
-public class Laco_IfElseIf {
+public class Controle_IfElseIf {
 
     /* 
     public static void main(String[] args) {
