@@ -2,97 +2,62 @@
 
 # ☕ Java — Operators & Flow Control
 
-### Entenda a condição. Controle a execução.  
 ### Understand the condition. Control the execution.
 
-<p>
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java language">
-  <img src="https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge" alt="Project completed">
-  <img src="https://img.shields.io/badge/Content-PT%20%7C%20EN-blue?style=for-the-badge" alt="Portuguese and English">
-</p>
+**A focused Java study project about logical operators and control flow — written, tested, and documented while learning.**
 
-[🇧🇷 Português](#-português) · [🇺🇸 English](#-english) · [📚 Conteúdo / Contents](#-conteúdo--contents)
+[![Language](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
+<img src="https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge" alt="Project completed">
+[![Documentation](https://img.shields.io/badge/Docs-English%20%7C%20Português-2F80ED?style=for-the-badge)](#-choose-your-language--escolha-seu-idioma)
+
+<br>
+
+**[🇺🇸 English](#-english) · [🇧🇷 Português](#-português) · [🧭 Roadmap](#-learning-roadmap--roteiro-de-estudos) · [📂 Structure](#-project-structure--estrutura-do-projeto)**
 
 </div>
 
 ---
 
-<a id="-português"></a>
-## 🇧🇷 Português
+<details open>
+<summary><strong>🇺🇸 English</strong></summary>
 
-### 📌 Sobre o projeto
+## 👋 About the project
 
-Este projeto reúne anotações e exemplos práticos sobre **operadores lógicos e controle de fluxo em Java**. O foco é entender como condições booleanas são avaliadas e como elas determinam quais blocos de código serão executados.
+Welcome to this **Java Operators & Flow Control** study project! This repository focuses on how logical conditions are evaluated and how they determine which blocks of code execute.
 
-### 📚 Conteúdo
+The examples are part of a hands-on learning process: write the code, run it, inspect the result, and change values to understand the logic instead of memorizing syntax alone.
 
-- Operadores lógicos: `&&` (AND), `||` (OR) e `!` (NOT).
-- Expressões booleanas e variáveis que armazenam condições.
-- Controle de fluxo com `if`, `else if` e `else`.
-- Precedência de operadores e uso de parênteses.
-- Comparação entre uma condição direta e uma condição nomeada em variável booleana.
-- Exemplos e exercícios para praticar a leitura da lógica.
+## 🎯 What you will find here
 
-### 🗂️ Estrutura do projeto
+- 🔗 **Logical operators:** `&&` (AND), `||` (OR), and `!` (NOT).
+- 🚦 **Flow control:** `if`, `else if`, and `else`.
+- 🧠 **Boolean expressions:** evaluate conditions and store results in `boolean` variables.
+- 🧩 **Operator precedence:** understand how combined conditions are evaluated and when parentheses improve clarity.
+- 💻 **Practical examples and exercises** to test your understanding.
+- 🔁 **Two approaches when useful:**
+  - **Method 1:** place a condition directly inside an `if` statement.
+  - **Method 2:** store a condition in a clearly named Boolean variable when it improves readability or reuse.
 
-```text
-Java-Learning-Library/
-├── README.md
-└── Fundamentos/
-    └── OperadoresLogicos.md
-```
+> **Learning principle:** more lines do not automatically mean better code. Choose the approach that makes the logic easiest to understand and maintain.
 
-### 🧭 Como usar
+## 🧪 How to use this project
 
-1. Leia uma seção por vez.
-2. Digite e execute os exemplos por conta própria.
-3. Mude os valores das variáveis e preveja o resultado antes de executar.
-4. Faça os exercícios e use a execução para conferir seu raciocínio.
+1. Read one concept at a time.
+2. Type the examples manually and run them.
+3. Change variable values and predict the output before execution.
+4. Combine operators and explain the result step by step.
+5. Complete the exercises, then test your reasoning with the program.
 
-<details>
-<summary><strong>🔎 Ver os principais operadores</strong></summary>
+## 🧭 Learning roadmap
 
-| Operador | Significado | Resultado verdadeiro quando… |
-|:---:|---|---|
-| `&&` | E lógico (AND) | Todas as condições são verdadeiras. |
-| `||` | OU lógico (OR) | Pelo menos uma condição é verdadeira. |
-| `!` | NÃO lógico (NOT) | A condição original é falsa. |
+- [x] Practice logical operators: `&&`, `||`, and `!`
+- [x] Use Boolean expressions in conditions
+- [x] Practice `if`, `else if`, and `else`
+- [x] Explore operator precedence in combined conditions
+- [x] Compare direct conditions with named Boolean variables
+- [x] Document examples and exercises
 
-</details>
-
-<details>
-<summary><strong>🧠 Ver as abordagens de código</strong></summary>
-
-- **Método 1 — condição direta:** útil quando a condição é simples e usada uma única vez.
-- **Método 2 — variável booleana nomeada:** útil quando um nome significativo deixa a regra mais clara ou quando a condição será reutilizada.
-
-A segunda abordagem não é automaticamente melhor: escolha a forma mais legível para o contexto.
-
-</details>
-
-### ✅ Status
-
-**Projeto concluído.** O conteúdo deste repositório está limitado a operadores lógicos e controle de fluxo em Java.
-
----
-
-<a id="-english"></a>
-## 🇺🇸 English
-
-### 📌 About
-
-This project contains notes and practical examples about **logical operators and flow control in Java**. Its goal is to explain how boolean conditions are evaluated and how they determine which blocks of code execute.
-
-### 📚 Topics covered
-
-- Logical operators: `&&` (AND), `||` (OR), and `!` (NOT).
-- Boolean expressions and variables that store conditions.
-- Flow control with `if`, `else if`, and `else`.
-- Operator precedence and parentheses.
-- Comparing a direct condition with a named boolean variable.
-- Examples and exercises to practice reading logical expressions.
-
-### 🗂️ Project structure
+## 📂 Project structure
 
 ```text
 Java-Learning-Library/
@@ -101,43 +66,75 @@ Java-Learning-Library/
     └── OperadoresLogicos.md
 ```
 
-### 🧭 How to use
+## 🤝 Philosophy
 
-1. Read one section at a time.
-2. Type and run the examples yourself.
-3. Change variable values and predict the output before running the code.
-4. Complete the exercises, then run the code to check your reasoning.
+This project records a specific step in my Java learning journey. The goal is to understand the logic behind the code, write it independently, and improve readability through practice.
 
-<details>
-<summary><strong>🔎 Explore the main operators</strong></summary>
-
-| Operator | Meaning | Evaluates to true when… |
-|:---:|---|---|
-| `&&` | Logical AND | Every condition is true. |
-| `||` | Logical OR | At least one condition is true. |
-| `!` | Logical NOT | The original condition is false. |
+**One concept at a time. Understand it, then build on it.**
 
 </details>
 
 <details>
-<summary><strong>🧠 Explore the coding approaches</strong></summary>
+<summary><strong>🇧🇷 Português</strong></summary>
 
-- **Method 1 — direct condition:** useful when a condition is simple and used only once.
-- **Method 2 — named boolean variable:** useful when a meaningful name clarifies the rule or the condition will be reused.
+## 👋 Sobre o projeto
 
-The second approach is not automatically better; choose the most readable option for the context.
+Boas-vindas a este projeto de estudo sobre **Operadores e Controle de Fluxo em Java**! O foco é compreender como as condições lógicas são avaliadas e como elas determinam quais blocos de código serão executados.
+
+Os exemplos fazem parte de um aprendizado prático: escrever o código, executá-lo, observar o resultado e alterar os valores para entender a lógica, em vez de apenas memorizar a sintaxe.
+
+## 🎯 O que você encontrará aqui
+
+- 🔗 **Operadores lógicos:** `&&` (AND), `||` (OR) e `!` (NOT).
+- 🚦 **Controle de fluxo:** `if`, `else if` e `else`.
+- 🧠 **Expressões booleanas:** avaliar condições e armazenar resultados em variáveis `boolean`.
+- 🧩 **Precedência de operadores:** entender como condições combinadas são avaliadas e quando parênteses ajudam na clareza.
+- 💻 **Exemplos práticos e exercícios** para testar o entendimento.
+- 🔁 **Duas abordagens quando forem úteis:**
+  - **Método 1:** escrever a condição diretamente no `if`.
+  - **Método 2:** armazenar a condição em uma variável booleana com nome claro quando isso melhorar a leitura ou permitir reutilização.
+
+> **Princípio de aprendizado:** mais linhas não significam automaticamente código melhor. Escolha a abordagem que torne a lógica mais fácil de entender e manter.
+
+## 🧪 Como usar este projeto
+
+1. Leia um conceito por vez.
+2. Digite os exemplos manualmente e execute-os.
+3. Altere os valores das variáveis e tente prever a saída antes de executar.
+4. Combine operadores e explique o resultado passo a passo.
+5. Faça os exercícios e depois confira seu raciocínio com o programa.
+
+## 🧭 Roteiro de estudos
+
+- [x] Praticar os operadores lógicos: `&&`, `||` e `!`
+- [x] Usar expressões booleanas em condições
+- [x] Praticar `if`, `else if` e `else`
+- [x] Explorar a precedência em condições combinadas
+- [x] Comparar condições diretas com variáveis booleanas nomeadas
+- [x] Documentar exemplos e exercícios
+
+## 📂 Estrutura do projeto
+
+```text
+Java-Learning-Library/
+├── README.md
+└── Fundamentos/
+    └── OperadoresLogicos.md
+```
+
+## 🤝 Filosofia
+
+Este projeto registra uma etapa específica da minha jornada de aprendizado em Java. O objetivo é compreender a lógica por trás do código, escrevê-lo de forma independente e melhorar a legibilidade com a prática.
+
+**Um conceito de cada vez. Entender primeiro; construir depois.**
 
 </details>
-
-### ✅ Status
-
-**Project completed.** The scope of this repository is limited to logical operators and flow control in Java.
 
 ---
 
 <div align="center">
 
-**Feito para aprender, praticar e consolidar fundamentos.**  
-**Built to learn, practice, and strengthen the fundamentals.**
+**Made with ☕, curiosity, and consistency.**  
+**Feito com ☕, curiosidade e consistência.**
 
 </div>
