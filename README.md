@@ -30,7 +30,7 @@ The examples are part of a hands-on learning process: write the code, run it, in
 ## 🎯 What you will find here
 
 - 🔗 **Logical operators:** `&&` (AND), `||` (OR), and `!` (NOT).
-- 🚦 **Flow control:** `if`, `else if`, and `else`.
+- 🚦 **Flow control:** `if`, `else if`, `else`, and `switch-case`.
 - 🧠 **Boolean expressions:** evaluate conditions and store results in `boolean` variables.
 - 🧩 **Operator precedence:** understand how combined conditions are evaluated and when parentheses improve clarity.
 - 💻 **Practical examples and exercises** to test your understanding.
@@ -39,6 +39,31 @@ The examples are part of a hands-on learning process: write the code, run it, in
   - **Method 2:** store a condition in a clearly named Boolean variable when it improves readability or reuse.
 
 > **Learning principle:** more lines do not automatically mean better code. Choose the approach that makes the logic easiest to understand and maintain.
+
+## 🚦 Flow control
+
+### `if`, `else if`, and `else`
+
+Use `if` to execute a block when a condition is true. `else if` checks another condition when earlier conditions were false, and `else` handles the remaining cases.
+
+### `switch` and `case`
+
+Use `switch` when you want to choose one execution path based on the value of an expression. Each `case` represents a value to match, and `default` handles values that do not match any listed case.
+
+```java
+int day = 3;
+
+switch (day) {
+    case 1 -> System.out.println("Monday");
+    case 2 -> System.out.println("Tuesday");
+    case 3 -> System.out.println("Wednesday");
+    default -> System.out.println("Unknown day");
+}
+```
+
+In this example, `day` is `3`, so the program prints `Wednesday`. The `default` branch runs only when none of the cases match.
+
+This example uses the arrow syntax (`case value ->`), supported in Java 14 and later. With this syntax, a matching branch does not fall through to the next case, so `break` is not needed. `switch` selects a branch; it does not repeat instructions like a loop.
 
 ## 🧪 How to use this project
 
@@ -53,6 +78,7 @@ The examples are part of a hands-on learning process: write the code, run it, in
 - [x] Practice logical operators: `&&`, `||`, and `!`
 - [x] Use Boolean expressions in conditions
 - [x] Practice `if`, `else if`, and `else`
+- [x] Practice `switch-case` with arrow syntax
 - [x] Explore operator precedence in combined conditions
 - [x] Compare direct conditions with named Boolean variables
 - [x] Document examples and exercises
@@ -68,6 +94,7 @@ Java-Learning-Library/
     └── Laco_IfElse.java
     └── Laco_IfElseIf.java
     └── OperadoresLogicos.java
+    └── Controle_Switch.java
 ```
 
 ## 🤝 Philosophy
@@ -90,7 +117,7 @@ Os exemplos fazem parte de um aprendizado prático: escrever o código, executá
 ## 🎯 O que você encontrará aqui
 
 - 🔗 **Operadores lógicos:** `&&` (AND), `||` (OR) e `!` (NOT).
-- 🚦 **Controle de fluxo:** `if`, `else if` e `else`.
+- 🚦 **Controle de fluxo:** `if`, `else if`, `else` e `switch-case`.
 - 🧠 **Expressões booleanas:** avaliar condições e armazenar resultados em variáveis `boolean`.
 - 🧩 **Precedência de operadores:** entender como condições combinadas são avaliadas e quando parênteses ajudam na clareza.
 - 💻 **Exemplos práticos e exercícios** para testar o entendimento.
@@ -99,6 +126,31 @@ Os exemplos fazem parte de um aprendizado prático: escrever o código, executá
   - **Método 2:** armazenar a condição em uma variável booleana com nome claro quando isso melhorar a leitura ou permitir reutilização.
 
 > **Princípio de aprendizado:** mais linhas não significam automaticamente código melhor. Escolha a abordagem que torne a lógica mais fácil de entender e manter.
+
+## 🚦 Controle de fluxo
+
+### `if`, `else if` e `else`
+
+Use `if` para executar um bloco quando uma condição for verdadeira. `else if` verifica outra condição quando as anteriores são falsas, e `else` trata os casos restantes.
+
+### `switch` e `case`
+
+Use `switch` quando quiser escolher um caminho de execução com base no valor de uma expressão. Cada `case` representa um valor possível, e `default` trata os valores que não correspondem a nenhum dos casos listados.
+
+```java
+int numero = 3;
+
+switch (numero) {
+    case 1 -> System.out.println("Segunda");
+    case 2 -> System.out.println("Terça");
+    case 3 -> System.out.println("Quarta");
+    default -> System.out.println("Opção não reconhecida");
+}
+```
+
+Neste exemplo, `numero` vale `3`, então o programa exibe `Quarta`. O bloco `default` é executado somente quando nenhum dos casos corresponde ao valor recebido.
+
+O exemplo usa a sintaxe com setas (`case valor ->`), suportada no Java 14 ou superior. Nessa sintaxe, o caso correspondente não continua automaticamente para o próximo, por isso não é necessário usar `break`. O `switch` seleciona um caminho; ele não repete instruções como um laço de repetição.
 
 ## 🧪 Como usar este projeto
 
@@ -113,6 +165,7 @@ Os exemplos fazem parte de um aprendizado prático: escrever o código, executá
 - [x] Praticar os operadores lógicos: `&&`, `||` e `!`
 - [x] Usar expressões booleanas em condições
 - [x] Praticar `if`, `else if` e `else`
+- [x] Praticar `switch-case` com a sintaxe de setas
 - [x] Explorar a precedência em condições combinadas
 - [x] Comparar condições diretas com variáveis booleanas nomeadas
 - [x] Documentar exemplos e exercícios
@@ -128,6 +181,7 @@ Java-Learning-Library/
     └── Laco_IfElse.java
     └── Laco_IfElseIf.java
     └── OperadoresLogicos.java
+    └── Controle_Switch.java
 ```
 
 ## 🤝 Filosofia
