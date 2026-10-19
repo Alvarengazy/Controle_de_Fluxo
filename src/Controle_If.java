@@ -1,4 +1,4 @@
-public class Laco_If {
+public class Controle_If {
     public static void main(String[] args) {
         int idade = 18;
 
