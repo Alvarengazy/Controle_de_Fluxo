@@ -104,13 +104,6 @@ A expressão é verdadeira se a pessoa tiver pelo menos 18 anos **e** ingresso, 
 - Use parênteses em expressões lógicas complexas para facilitar a leitura.
 - Uma variável booleana representa o resultado de uma condição; ela não verifica fatos por conta própria.
 
-## Exercícios
-
-1. Se `idade = 17` e `temIngresso = true`, qual é o resultado de `idade >= 18 && temIngresso`?
-2. Se `temIngresso = false` e `conheceAlguem = false`, qual é o resultado de `temIngresso || conheceAlguem`?
-3. Se `bloqueado = true`, o bloco `if (!bloqueado)` será executado? Explique por quê.
-4. O que será executado nesta cadeia: `if`, `else if` e `else`, quando `idade = 17`?
-
 ---
 
 Este documento acompanha a prática dos operadores e do controle de fluxo. O conteúdo será ampliado à medida que esses temas forem estudados.
